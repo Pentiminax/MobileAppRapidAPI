@@ -8,7 +8,7 @@ namespace PentiMovie.Services
     public static class MovieApi
     {
         private const string HOST = "movie-database-imdb-alternative.p.rapidapi.com";
-        private const string KEY = "b33a55fca8msh1368ec45897ac72p12933ajsnef8c8e7a4a2a";
+        private const string KEY = "API_KEY";
 
         public static async Task<SearchResults> SearchAsync(string query)
         {
